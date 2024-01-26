@@ -1,50 +1,43 @@
-# Node.js
-node_modules/
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# Visual Studio Code
-.vscode/
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
 
-# macOS
-.DS_Store
-
-# Editor backup files
-*~
-
-# Build output
-dist/
-
-# Cache and logs
-.cache/
-log.txt
-
-# Environment variables
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# npm package locks
-package-lock.json
-yarn.lock
-
-# Output of npm and Yarn commands
+# Node
+/node_modules
 npm-debug.log
 yarn-error.log
 
-# IDE-specific files
+# IDEs and editors
 .idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
 
-# TypeScript configuration
-tsconfig.tsbuildinfo
+# Visual Studio Code
+.vscode/*
+**/.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
 
 # Miscellaneous
-*.log
-*.swp
-Thumbs.db
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
 
-# Ignore .env files which should not be checked into version control
-.env*
+# System files
+.DS_Store
+Thumbs.db
